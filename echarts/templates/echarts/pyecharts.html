@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+{% load staticfiles%}
+<html>
+
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel = "stylesheet" href="https://cdn.bootcss.com/normalize/8.0.1/normalize.min.css">
+	<link rel = "stylesheet" href="{% static 'font-awesome-4.7.0/css/font-awesome.min.css' %}"/>
+	<link rel="stylesheet" href="{% static 'side.css' %}"/>
+
+    <meta charset="utf-8">
+    <title>Proudly presented by PycCharts</title>
+	<script src="{% static 'side.js' %}/" type="text/javascript" charset="utf-8" async defer></script>
+    {% for jsfile_name in script_list %}
+        <script src="{{ host }}/{{ jsfile_name }}.js"></script>
+    {% endfor %}
+
+</head>
+
+<body>
+
+	<div class="side-wrap">
+		<div class="side-bg">
+			<div class="side-mask">
+				<span><i class="fa fa-list-ul"></i></span>
+			</div>
+		</div>
+
+		<div class="side-content">
+			<ul class="side-list">
+				<li>
+					<a href="http://127.0.0.1:8000/" title="">城市列表</a>
+				</li>
+                <li>
+					<a href title="">地区数量分布</a><!--/number_count/-->
+				</li>
+				<li>
+					<a href title="">单价总价堆叠图</a><!--/unit_total_table/-->
+				</li>
+				<li>
+					<a href title="">平均单价总价地区分布</a><!--/region_price/-->
+				</li>
+				<li>
+					<a href title="">室厅厨卫 布局 饼状图</a><!--/layout_type/-->
+				</li>
+
+			</ul>
+		</div>
+	</div>
+
+
+  {{ myechart|safe }}
+</body>
+
+</html>
