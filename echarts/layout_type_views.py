@@ -4,9 +4,19 @@ from django.template import loader
 from pyecharts import Bar, Pie, Page
 import pandas as pd
 from pyecharts import configure
+from echarts.city_info import make_city_dict
+
+
+
+
 
 
 REMOTE_HOST = "https://pyecharts.github.io/assets/js"
+
+
+
+
+
 
 
 def index(request,city):
@@ -25,6 +35,8 @@ def index(request,city):
 
 def make_plot(city):
 
+    city_dict=make_city_dict()
+
     # 倒入包
     data = pd.read_csv('csv_files/%s/room_type.csv'%city)
     # 读取数据
@@ -36,7 +48,7 @@ def make_plot(city):
     v1 = data["数量"].tolist()
     # 数据处理
 
-    bar = Bar(title="%s各二手房 室厅厨卫 布局 条形图"%city, width=1200, height=600)
+    bar = Bar(title="%s各二手房 室厅厨卫 布局 条形图"%city_dict[city], width=1200, height=600)
     bar.add("数量",
             attr,
             v1,
@@ -44,7 +56,7 @@ def make_plot(city):
             xaxis_rotate=35,
             mark_point_textcolor='#000',
             mark_point_symbol="pin", )
-    pie = Pie("%s二手房 室厅厨卫 布局 饼状图"%city, title_pos="left", width=1200, height=600)
+    pie = Pie("%s二手房 室厅厨卫 布局 饼状图"%city_dict[city], title_pos="left", width=1200, height=600)
     pie.add(
         "",
         attr,
@@ -61,3 +73,5 @@ def make_plot(city):
     page.add_chart(bar)
     page.add_chart(pie)
     return page
+
+

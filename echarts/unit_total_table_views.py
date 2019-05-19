@@ -4,7 +4,7 @@ from django.template import loader
 from pyecharts import Bar, Page
 import pandas as pd
 from pyecharts import configure
-
+from echarts.city_info import make_city_dict
 
 REMOTE_HOST = "https://pyecharts.github.io/assets/js"
 
@@ -22,6 +22,7 @@ def index(request,city):
 
 
 def make_plot(city):
+    city_dict = make_city_dict()
     data = pd.read_csv('csv_files/%s/unit_table.csv'%city)
 
     configure(global_theme='vintage')
@@ -29,7 +30,7 @@ def make_plot(city):
     attr = data.area1.tolist()
     table_name = data.columns.tolist()[1:]
 
-    unit_bar = Bar("%s单价堆叠图(单位：元)"%city, width=1200, height=600)
+    unit_bar = Bar("%s单价堆叠图(单位：元)"%city_dict[city], width=1200, height=500,title_top=20)
 
     for i in range(len(table_name)):
         name = table_name[i]
@@ -43,7 +44,7 @@ def make_plot(city):
     attr = data.area1.tolist()
     table_name = data.columns.tolist()[1:]
 
-    total_bar = Bar("%s总价堆叠图(单位：万元)"%city, width=1200, height=600)
+    total_bar = Bar("%s总价堆叠图(单位：万元)"%city_dict[city], width=1200, height=500,title_top=20)
 
     for i in range(len(table_name)):
         name = table_name[i]
