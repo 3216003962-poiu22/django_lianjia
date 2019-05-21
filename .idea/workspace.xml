@@ -2,15 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b2fbd22-76fa-44ff-aaa1-02d92fa12786" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv_files/total_city/city_df.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/echarts/city_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv_files/make_dir.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/echarts/layout_type_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/echarts/layout_type_views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/echarts/number_count_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/echarts/number_count_views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/echarts/region_price_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/echarts/region_price_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv_files/cc/groupby_region_df.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv_files/cc/number_count.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv_files/cc/room_type.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv_files/cc/total_table.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv_files/cc/unit_table.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv_files/dg/groupby_region_df.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv_files/dg/number_count.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv_files/dg/room_type.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv_files/dg/total_table.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv_files/dg/unit_table.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv_files/gz/groupby_region_df.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv_files/gz/number_count.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv_files/gz/room_type.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv_files/gz/total_table.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv_files/gz/unit_table.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv_files/sh/groupby_region_df.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv_files/sh/number_count.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv_files/sh/room_type.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv_files/sh/total_table.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv_files/sh/unit_table.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv_files/sz/groupby_region_df.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv_files/sz/number_count.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv_files/sz/room_type.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv_files/sz/total_table.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv_files/sz/unit_table.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/echarts/templates/mainpage/mainpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/echarts/templates/mainpage/mainpage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/echarts/unit_total_table_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/echarts/unit_total_table_views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/echarts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/echarts/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/echarts/templates/echarts/pyecharts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+            <state relative-caret-position="456">
+              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -33,36 +52,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/echarts/templates/mainpage/mainpage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="190">
+              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/csv_files/cc/groupby_region_df.csv">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/csv_files/cc/room_type.csv">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/csv_files/cc/total_table.csv">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/csv_files/cc/unit_table.csv">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/echarts/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+              <folding>
+                <element signature="e#12#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/echarts/region_price_views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
+            <state relative-caret-position="778">
               <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="36" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
@@ -74,7 +85,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/echarts/number_count_views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
+            <state relative-caret-position="778">
               <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
@@ -87,7 +98,7 @@
         <entry file="file://$PROJECT_DIR$/echarts/city_info.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="4" column="59" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="59" />
+              <caret line="4" column="59" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -95,7 +106,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/echarts/unit_total_table_views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
+            <state relative-caret-position="760">
               <caret line="46" column="89" selection-start-line="46" selection-start-column="89" selection-end-line="46" selection-end-column="89" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
@@ -129,17 +140,17 @@
         <option value="$PROJECT_DIR$/echarts/templates/echarts/pyecharts.html" />
         <option value="$PROJECT_DIR$/echarts/region_price_views.py" />
         <option value="$PROJECT_DIR$/echarts/layout_type_views.py" />
-        <option value="$PROJECT_DIR$/echarts/views.py" />
         <option value="$PROJECT_DIR$/echarts/city_info.py" />
         <option value="$PROJECT_DIR$/echarts/unit_total_table_views.py" />
         <option value="$PROJECT_DIR$/echarts/number_count_views.py" />
         <option value="$PROJECT_DIR$/echarts/templates/mainpage/mainpage.html" />
+        <option value="$PROJECT_DIR$/echarts/views.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="469" />
-    <option name="y" value="145" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="498" />
+    <option name="y" value="51" />
     <option name="width" value="1324" />
     <option name="height" value="955" />
   </component>
@@ -149,6 +160,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,7 +212,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -315,15 +326,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="469" y="145" width="1324" height="955" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1920" height="984" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2970069" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20379147" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32765958" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25144842" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25112107" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -419,16 +429,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/echarts/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <element signature="e#12#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/echarts/layout_type_views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-835">
@@ -439,16 +439,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/echarts/city_info.py">
+    <entry file="file://$PROJECT_DIR$/csv_files/cc/room_type.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv_files/cc/total_table.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv_files/cc/groupby_region_df.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv_files/cc/unit_table.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/echarts/templates/echarts/pyecharts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="59" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="59" />
+        <state relative-caret-position="456">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/echarts/unit_total_table_views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
+        <state relative-caret-position="760">
           <caret line="46" column="89" selection-start-line="46" selection-start-column="89" selection-end-line="46" selection-end-column="89" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
@@ -456,16 +468,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/echarts/templates/echarts/pyecharts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/echarts/number_count_views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
+        <state relative-caret-position="778">
           <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
@@ -475,7 +480,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/echarts/region_price_views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
+        <state relative-caret-position="778">
           <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="36" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
@@ -483,24 +488,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/csv_files/cc/unit_table.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csv_files/cc/total_table.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csv_files/cc/room_type.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/echarts/templates/mainpage/mainpage.html">
+    <entry file="file://$PROJECT_DIR$/echarts/city_info.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        <state relative-caret-position="76">
+          <caret line="4" column="59" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/csv_files/cc/groupby_region_df.csv">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/echarts/templates/mainpage/mainpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/echarts/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <folding>
+            <element signature="e#12#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

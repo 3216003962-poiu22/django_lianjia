@@ -4,12 +4,8 @@
 	<title></title>
 </head>
 <body>
-	<a href="http://127.0.0.1:8000/dg/number_count">东莞</a>
-	<a href="http://127.0.0.1:8000/gz/number_count">广州</a>
-	<a href="http://127.0.0.1:8000/sz/number_count">深圳</a>
-	<a href="http://127.0.0.1:8000/sh/number_count">上海</a>
-	<a href="http://127.0.0.1:8000/cc/number_count">长春</a>
-<!--	<a href="http://127.0.0.1:8000/dl/number_count">dl</a>-->
-<!--	<a href="http://127.0.0.1:8000/fs/number_count">佛山</a>-->
+{% for i,j in city_dict.items %}
+<a href="http://127.0.0.1:8000/{{i}}/number_count">{{j}}</a>
+{% endfor %}
 </body>
 </html>
