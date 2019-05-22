@@ -15,12 +15,13 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from echarts.views import mainpage
+from echarts.views import mainpage,url_city_dict
 from echarts import number_count_views,region_price_views,layout_type_views,unit_total_table_views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', mainpage),
+    url(r'^city_dict/', url_city_dict),
     url(r'^(.*?)/number_count/',number_count_views.index),
     url(r'^(.*?)/region_price/',region_price_views.index),
     url(r'^(.*?)/layout_type/',layout_type_views.index),

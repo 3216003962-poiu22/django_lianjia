@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for key, value in city_dict.items %}
+    <a href="http://127.0.0.1:8000/{{key}}/number_count">{{value}}</a>
+{% endfor %}
+
+
+</body>
+</html>
