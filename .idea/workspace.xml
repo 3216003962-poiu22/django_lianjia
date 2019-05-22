@@ -2,35 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b2fbd22-76fa-44ff-aaa1-02d92fa12786" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/csv_files/make_dir.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/facedata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv_files/cc/groupby_region_df.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv_files/cc/number_count.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv_files/cc/room_type.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv_files/cc/total_table.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv_files/cc/unit_table.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv_files/dg/groupby_region_df.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv_files/dg/number_count.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv_files/dg/room_type.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv_files/dg/total_table.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv_files/dg/unit_table.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv_files/gz/groupby_region_df.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv_files/gz/number_count.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv_files/gz/room_type.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv_files/gz/total_table.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv_files/gz/unit_table.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv_files/sh/groupby_region_df.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv_files/sh/number_count.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv_files/sh/room_type.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv_files/sh/total_table.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv_files/sh/unit_table.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv_files/sz/groupby_region_df.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv_files/sz/number_count.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv_files/sz/room_type.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv_files/sz/total_table.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv_files/sz/unit_table.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/echarts/templates/mainpage/mainpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/echarts/templates/mainpage/mainpage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/echarts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/echarts/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,26 +18,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/echarts/templates/echarts/pyecharts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/echarts/templates/mainpage/mainpage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            <state relative-caret-position="19">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/echarts/templates/mainpage/mainpage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/echarts/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
               <folding>
                 <element signature="e#12#31#0" expanded="true" />
               </folding>
@@ -73,7 +48,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/echarts/region_price_views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="778">
+            <state relative-caret-position="836">
               <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="36" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
@@ -85,7 +60,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/echarts/number_count_views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="778">
+            <state relative-caret-position="703">
               <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
@@ -125,6 +100,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>css</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -143,14 +123,14 @@
         <option value="$PROJECT_DIR$/echarts/city_info.py" />
         <option value="$PROJECT_DIR$/echarts/unit_total_table_views.py" />
         <option value="$PROJECT_DIR$/echarts/number_count_views.py" />
-        <option value="$PROJECT_DIR$/echarts/templates/mainpage/mainpage.html" />
         <option value="$PROJECT_DIR$/echarts/views.py" />
+        <option value="$PROJECT_DIR$/echarts/templates/mainpage/mainpage.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="498" />
-    <option name="y" value="51" />
+    <option name="x" value="589" />
+    <option name="y" value="38" />
     <option name="width" value="1324" />
     <option name="height" value="955" />
   </component>
@@ -160,7 +140,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,11 +150,6 @@
             <path>
               <item name="lianjia" type="b2602c69:ProjectViewProjectNode" />
               <item name="lianjia" type="462c0819:PsiDirectoryNode" />
-              <item name="csv_files" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lianjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lianjia" type="462c0819:PsiDirectoryNode" />
               <item name="echarts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -183,13 +157,6 @@
               <item name="lianjia" type="462c0819:PsiDirectoryNode" />
               <item name="echarts" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lianjia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lianjia" type="462c0819:PsiDirectoryNode" />
-              <item name="echarts" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="echarts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lianjia" type="b2602c69:ProjectViewProjectNode" />
@@ -212,6 +179,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,10 +190,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/echarts/templates/mainpage" />
       <recent name="$PROJECT_DIR$/csv_files" />
       <recent name="$PROJECT_DIR$/csv_files/total_city" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -327,12 +296,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="984" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20379147" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20273829" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32765958" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3267671" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.25112107" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -451,17 +421,10 @@
     <entry file="file://$PROJECT_DIR$/csv_files/cc/unit_table.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/echarts/templates/echarts/pyecharts.html">
+    <entry file="file://$PROJECT_DIR$/echarts/region_price_views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/echarts/unit_total_table_views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="46" column="89" selection-start-line="46" selection-start-column="89" selection-end-line="46" selection-end-column="89" />
+        <state relative-caret-position="836">
+          <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="36" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -470,18 +433,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/echarts/number_count_views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="778">
+        <state relative-caret-position="703">
           <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/echarts/region_price_views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="778">
-          <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="36" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -495,20 +448,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/echarts/templates/mainpage/mainpage.html">
+    <entry file="file://$PROJECT_DIR$/echarts/unit_total_table_views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state relative-caret-position="760">
+          <caret line="46" column="89" selection-start-line="46" selection-start-column="89" selection-end-line="46" selection-end-column="89" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/echarts/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
           <folding>
             <element signature="e#12#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/echarts/templates/echarts/pyecharts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/echarts/templates/mainpage/mainpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
         </state>
       </provider>
     </entry>

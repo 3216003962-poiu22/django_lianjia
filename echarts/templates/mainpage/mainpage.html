@@ -1,11 +1,400 @@
 <!DOCTYPE html>
+{% load staticfiles%}
 <html>
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title></title>
+	<link rel = "stylesheet" href="https://cdn.bootcss.com/normalize/8.0.1/normalize.min.css">
+	<!--<link rel="shortcut icon" href="bitbug_favicon.ico" />-->
+	<link rel="stylesheet" href="{% static 'main.css' %}"/>
+
 </head>
 <body>
-{% for i,j in city_dict.items %}
-<a href="http://127.0.0.1:8000/{{i}}/number_count">{{j}}</a>
-{% endfor %}
+	<div class="city-box">
+		<div class="header">
+			<div class="facedata">
+				<img src="{% static 'facedata.png' %}"/>
+			</div>
+			<ul>
+				<li>热门城市</li>
+				<li><a href="">北京</a></li>
+				<li><a href="http://127.0.0.1:8000/sh/number_count/">上海</a></li>
+				<li><a href="http://127.0.0.1:8000/sz/number_count/">深圳</a></li>
+			</ul>
+		</div>
+		<ul>
+			<li>
+				<div class="province">
+					安徽
+				</div>
+				<div class="cityitem">
+					<ul>
+						<li><a href="#" title="">安庆</a></li>
+						<li><a href="#" title="">滁州</a></li>
+						<li><a href="#" title="">合肥</a></li>
+						<li><a href="#" title="">马鞍山</a></li>
+						<li><a href="#" title="">芜湖</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div class="province">
+					北京
+				</div>
+				<div class="cityitem">
+					<ul>
+						<li><a href="#" title="">北京</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div class="province">
+					重庆
+				</div>
+				<div class="cityitem">
+					<ul>
+						<li><a href="#" title="">重庆</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div class="province">
+					福建
+				</div>
+				<div class="cityitem">
+					<ul>
+						<li><a href="#" title="">福州</a></li>
+						<li><a href="#" title="">龙岩</a></li>
+						<li><a href="#" title="">泉州</a></li>
+						<li><a href="#" title="">厦门</a></li>
+						<li><a href="#" title="">漳州</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div class="province">
+					广东
+				</div>
+				<div class="cityitem">
+					<ul>
+						<li><a href="#" title="">东莞</a></li>
+						<li><a href="#" title="">佛山</a></li>
+						<li><a href="#" title="">广州</a></li>
+						<li><a href="#" title="">惠州</a></li>
+						<li><a href="#" title="">江门</a></li>
+						<li><a href="#" title="">清远</a></li>
+						<li><a href="#" title="">深圳</a></li>
+						<li><a href="#" title="">珠海</a></li>
+						<li><a href="#" title="">湛江</a></li>
+						<li><a href="#" title="">中山</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div class="province">
+					贵州
+				</div>
+				<div class="cityitem">
+					<ul>
+						<li><a href="#" title="">贵西</a></li>
+						
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div class="province">
+					广西
+				</div>
+				<div class="cityitem">
+					<ul>
+						<li><a href="#" title="">北海</a></li>
+						<li><a href="#" title="">桂林</a></li>
+						<li><a href="#" title="">柳州</a></li>
+						<li><a href="#" title="">马鞍山</a></li>
+						<li><a href="#" title="">南宁</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div class="province">
+					甘肃
+				</div>
+				<div class="cityitem">
+					<ul>
+						<li><a href="#" title="">兰州</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div class="province">
+					湖北
+				</div>
+				<div class="cityitem">
+					<ul>
+						<li><a href="#" title="">黄石</a></li>
+						<li><a href="#" title="">黄冈</a></li>
+						<li><a href="#" title="">武汉</a></li>
+						<li><a href="#" title="">襄阳</a></li>
+						<li><a href="#" title="">咸宁</a></li>
+						<li><a href="#" title="">宜昌</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div class="province">
+					湖南
+				</div>
+				<div class="cityitem">
+					<ul>
+						<li><a href="#" title="">长沙</a></li>
+						<li><a href="#" title="">常德</a></li>
+						<li><a href="#" title="">岳阳</a></li>
+						<li><a href="#" title="">株洲</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div class="province">
+					河北
+				</div>
+				<div class="cityitem">
+					<ul>
+						<li><a href="#" title="">保定</a></li>
+						<li><a href="#" title="">承德</a></li>
+						<li><a href="#" title="">邯郸</a></li>
+						<li><a href="#" title="">衡水</a></li>
+						<li><a href="#" title="">廊坊</a></li>
+						<li><a href="#" title="">秦皇岛</a></li>
+						<li><a href="#" title="">石家庄</a></li>
+						<li><a href="#" title="">唐山</a></li>
+						<li><a href="#" title="">邢台</a></li>
+						<li><a href="#" title="">张家口</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div class="province">
+					海南
+				</div>
+				<div class="cityitem">
+					<ul>
+						<li><a href="#" title="">保亭</a></li>
+						<li><a href="#" title="">定安</a></li>
+						<li><a href="#" title="">海口</a></li>
+						<li><a href="#" title="">临安</a></li>
+						<li><a href="#" title="">三亚</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div class="province">
+					河南
+				</div>
+				<div class="cityitem">
+					<ul>
+						<li><a href="#" title="">开封</a></li>
+						<li><a href="#" title="">洛阳</a></li>
+						<li><a href="#" title="">新乡</a></li>
+						<li><a href="#" title="">许昌</a></li>
+						<li><a href="#" title="">郑州</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div class="province">
+					黑龙江
+				</div>
+				<div class="cityitem">
+					<ul>
+						<li><a href="#" title="">哈尔滨</a></li>
+						
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div class="province">
+					江苏
+				</div>
+				<div class="cityitem">
+					<ul>
+						<li><a href="#" title="">常州</a></li>
+						<li><a href="#" title="">淮安</a></li>
+						<li><a href="#" title="">昆山</a></li>
+						<li><a href="#" title="">南京</a></li>
+						<li><a href="#" title="">南通</a></li>
+						<li><a href="#" title="">苏州</a></li>
+						<li><a href="#" title="">无锡</a></li>
+						<li><a href="#" title="">徐州</a></li>
+						<li><a href="#" title="">盐城</a></li>
+						<li><a href="#" title="">镇江</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div class="province">
+					吉林
+				</div>
+				<div class="cityitem">
+					<ul>
+						<li><a href="#" title="">长春</a></li>
+						<li><a href="#" title="">吉林</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div class="province">
+					江西
+				</div>
+				<div class="cityitem">
+					<ul>
+						<li><a href="#" title="">九江</a></li>
+						<li><a href="#" title="">吉安</a></li>
+						<li><a href="#" title="">南昌</a></li>
+						<li><a href="#" title="">上饶</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div class="province">
+					辽宁
+				</div>
+				<div class="cityitem">
+					<ul>
+						<li><a href="#" title="">大连</a></li>
+						<li><a href="#" title="">丹东</a></li>
+						<li><a href="#" title="">沈阳</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div class="province">
+					内蒙古
+				</div>
+				<div class="cityitem">
+					<ul>
+						<li><a href="#" title="">呼和浩特</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div class="province">
+					宁夏
+				</div>
+				<div class="cityitem">
+					<ul>
+						<li><a href="#" title="">银川</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div class="province">
+					上海
+				</div>
+				<div class="cityitem">
+					<ul>
+						<li><a href="#" title="">上海</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div class="province">
+					四川
+				</div>
+				<div class="cityitem">
+					<ul>
+						<li><a href="#" title="">成都</a></li>
+						<li><a href="#" title="">德阳</a></li>
+
+						<li><a href="#" title="">达州</a></li>
+						<li><a href="#" title="">乐山</a></li>
+						<li><a href="#" title="">凉山</a></li>
+						<li><a href="#" title="">眉山</a></li>
+						<li><a href="#" title="">南充</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div class="province">
+					山东
+				</div>
+				<div class="cityitem">
+					<ul>
+						<li><a href="#" title="">济南</a></li>
+						<li><a href="#" title="">青岛</a></li>
+						<li><a href="#" title="">威海</a></li>
+						<li><a href="#" title="">烟台</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div class="province">
+					陕西
+				</div>
+				<div class="cityitem">
+					<ul>
+						<li><a href="#" title="">宝鸡</a></li>
+						<li><a href="#" title="">汉中</a></li>
+
+						<li><a href="#" title="">西安</a></li>
+						<li><a href="#" title="">咸阳</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div class="province">
+					山西
+				</div>
+				<div class="cityitem">
+					<ul>
+						<li><a href="#" title="">晋中</a></li>
+						<li><a href="#" title="">太原</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div class="province">
+					天津
+				</div>
+				<div class="cityitem">
+					<ul>
+						<li><a href="#" title="">天津</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div class="province">
+					云南
+				</div>
+				<div class="cityitem">
+					<ul>
+						<li><a href="#" title="">大理</a></li>
+						<li><a href="#" title="">昆明</a></li>
+
+						<li><a href="#" title="">西双版纳</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div class="province">
+					浙江
+				</div>
+				<div class="cityitem">
+					<ul>
+						<li><a href="#" title="">杭州</a></li>
+						<li><a href="#" title="">湖州</a></li>
+
+						<li><a href="#" title="">嘉兴</a></li>
+						<li><a href="#" title="">金华</a></li>
+						<li><a href="#" title="">宁波</a></li>
+						<li><a href="#" title="">绍兴</a></li>
+						<li><a href="#" title="">台州</a></li>
+						<li><a href="#" title="">温州</a></li>
+					</ul>
+				</div>
+			</li>
+		</ul>
+	</div>
 </body>
 </html>
